@@ -68,7 +68,7 @@ export default function Home() {
           <div className="flex flex-row justify-center">
             {icons.map((icon) => {
               return (
-                <a href={icon.url} key={icon.name} className="mx-2 hover:scale-150 transition duration-500 ease-out">
+                <a href={icon.url} key={icon.name} aria-label={icon.name} className="mx-2 hover:scale-150 transition duration-500 ease-out">
                   {icon.icon}
                 </a>
               );
