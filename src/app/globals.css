@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.bgImageMikeWhiteHair {
+  background-image: url("../assets/images/mike-white-hair.webp");
+  background-size: cover;
+}
