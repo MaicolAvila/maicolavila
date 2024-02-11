@@ -15,6 +15,16 @@ const config: Config = {
       red: {
         1000: "#D52941",
       },
+      background: {
+        100: "#15141F",
+      },
+      blue: {
+        100: "#01BAEF",
+      },
+      icons: {
+        100: "#B9D0C8",
+      },
+      white: "#BBBBBB",
     },
     extend: {
       backgroundImage: {
