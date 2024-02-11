@@ -36,3 +36,39 @@ body {
   background-image: url("../assets/images/mike-white-hair.webp");
   background-size: cover;
 }
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #026884;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #026884;
+}
+
+.background-text-animation {
+  background: linear-gradient(to right, #FFF 20%, #01BAEF 30%, #01BAEF 70%, #FFF 80%);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-text-animation 2s linear infinite;
+}
+@keyframes gradient-text-animation {
+  to {
+    background-position: 200% center;
+  }
+}
