@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
+    "./src/template/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -24,19 +25,13 @@ const config: Config = {
       icons: {
         100: "#B9D0C8",
       },
-      white: "#BBBBBB",
     },
     extend: {
-      backgroundImage: {
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       boxShadow: {
         green: "0 0 0 3px rgba(17, 27, 28, 0.1)",
         "green-hv": "0 0 0 3px rgba(17, 27, 28, 0.3)",
       },
     },
   },
-  plugins: [],
 };
 export default config;

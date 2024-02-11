@@ -10,15 +10,15 @@ interface Route {
 export const routesApp: Route[] = [
   {
     name: 'Home',
-    path: '/#home',
+    path: '#home',
     exact: true,
   },
   {
     name: 'Projects',
-    path: '/#projects',
+    path: '#projects',
   },
   {
     name: 'Skills',
-    path: '/#skills',
+    path: '#skills',
   },
 ];
