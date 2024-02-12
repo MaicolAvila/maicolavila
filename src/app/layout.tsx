@@ -9,6 +9,7 @@ const lato = Lato({ weight: "700", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Maicol Avila",
   description: "Maicol Avila personal website",
+  keywords: "Maicol Avila, Software Engineer, Fullstack Developer, Colombia Developer, Desarrollador de Software, Ingeniero de Software",
 };
 
 export default function RootLayout({
