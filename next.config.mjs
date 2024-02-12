@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+import nextPWA from 'next-pwa';
 const nextConfig = {
   reactStrictMode: true, // Enable React strict mode for improved error handling
   swcMinify: true,      // Enable SWC minification for improved performance
@@ -8,7 +9,7 @@ const nextConfig = {
 };
 
 // Configuration object tells the next-pwa plugin 
-const withPWA = require("next-pwa")({
+const withPWA = nextPWA({
   dest: "public", // Destination directory for the PWA files
   disable: process.env.NODE_ENV === "development", // Disable PWA in development mode
   register: true, // Register the PWA service worker
@@ -16,4 +17,4 @@ const withPWA = require("next-pwa")({
 });
 
 // Export the combined configuration for Next.js with PWA support
-module.exports = withPWA(nextConfig);
+export default withPWA(nextConfig);
