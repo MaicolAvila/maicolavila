@@ -37,6 +37,18 @@ const icons = [
 ];
 
 export default function HomeSection() {
+  const displayIcons = icons.map((icon) => {
+    return (
+      <a
+        href={icon.url}
+        key={icon.name}
+        aria-label={icon.name}
+        className="mx-2 hover:scale-150 transition duration-500 ease-out"
+      >
+        {icon.icon}
+      </a>
+    );
+  });
   return (
     <section
       id="home"
@@ -52,23 +64,15 @@ export default function HomeSection() {
           >
             Maicol Avila
           </h1>
-          <div className="flex flex-row justify-center">
-            {icons.map((icon) => {
-              return (
-                <a
-                  href={icon.url}
-                  key={icon.name}
-                  aria-label={icon.name}
-                  className="mx-2 hover:scale-150 transition duration-500 ease-out"
-                >
-                  {icon.icon}
-                </a>
-              );
-            })}
+          <div className="flex-row justify-center hidden md:flex">
+            {displayIcons}
           </div>
         </div>
         <div className="">
           <p className="text-start md:text-xl xl:text-2xl">{description}</p>
+        </div>
+        <div className="flex-row justify-center flex md:hidden">
+          {displayIcons}
         </div>
       </div>
     </section>

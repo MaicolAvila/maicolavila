@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lato.className} bg-background-100`}>
         <div className="flex flex-row bg-background-100 px-8 justify-center items-center">
-          <div className="flex flex-row max-w-screen-xl max-h-screen">
-            <div className="flex flex-col">
+          <div className="flex flex-row w-full max-w-screen-xl max-h-screen overflow-x-hidden">
+            <div className="flex-col hidden md:flex">
               <Image
                 className="rounded-full"
                 width={350}
