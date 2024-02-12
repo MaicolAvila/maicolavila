@@ -1,7 +1,6 @@
 "use client";
 
 import { routesApp } from "@/shared/domain/routes";
-import Link from "next/link";
 import React, { useEffect } from "react";
 
 export default function Navigation() {
@@ -49,12 +48,12 @@ export default function Navigation() {
         {routes.map((route) => {
           return (
             <li key={route.path}>
-              <Link
+              <a
                 href={route.path}
                 className="text-xl text-blue-100"
               >
                 - {route.name}
-              </Link>
+              </a>
             </li>
           );
         })}
