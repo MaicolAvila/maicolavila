@@ -20,7 +20,7 @@
 
 /* Handle */
 .carouselContainer::-webkit-scrollbar-thumb {
-  background: #02688440;
+  background: transparent;
   width: 4px;
   height: 4px;
   opacity: 0.5;
