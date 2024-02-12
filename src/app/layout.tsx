@@ -9,7 +9,8 @@ const lato = Lato({ weight: "700", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Maicol Avila",
   description: "Maicol Avila personal website",
-  keywords: "Maicol Avila, Software Engineer, Fullstack Developer, Colombia Developer, Desarrollador de Software, Ingeniero de Software",
+  keywords:
+    "Maicol Avila, Software Engineer, Fullstack Developer, Colombia Developer, Desarrollador de Software, Ingeniero de Software",
   manifest: "/manifest.json",
   authors: [
     { name: "Maicol Andres Avila Vela" },
@@ -33,17 +34,19 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lato.className} bg-background-100`}>
         <div className="flex flex-row bg-background-100 px-8 justify-center items-center">
-          <div className="flex flex-row w-full max-w-screen-xl max-h-screen overflow-x-hidden">
-            <div className="flex-col hidden md:flex">
-              <Image
-                className="rounded-full"
-                width={350}
-                height={350}
-                src="/images/profile.webp"
-                alt="Maicol Avila"
-                loading="lazy"
-              />
-              <Navigation />
+          <div className="w-full max-w-screen-xl overflow-x-hidden layout-grid">
+            <div className="hidden md:flex min-w-64">
+              <div className="fixed flex-col flex max-w-64">
+                <Image
+                  className="rounded-full"
+                  width={350}
+                  height={350}
+                  src="/images/profile.webp"
+                  alt="Maicol Avila"
+                  loading="lazy"
+                />
+                <Navigation />
+              </div>
             </div>
             {children}
           </div>

@@ -52,7 +52,7 @@ export default function HomeSection() {
   return (
     <section
       id="home"
-      className="flex flex-col items-center justify-center w-full py-12 md:items-start md:px-12 h-screen"
+      className="flex flex-col items-center justify-center w-full py-12 md:items-start md:px-12"
     >
       <div className="flex flex-col gap-12">
         <div className="px-4 flex flex-row items-center justify-between">

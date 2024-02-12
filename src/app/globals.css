@@ -8,7 +8,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -16,6 +15,11 @@ html {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: 16rem calc(100% - 16rem);
 }
 
 .bgImageMikeWhiteHair {
