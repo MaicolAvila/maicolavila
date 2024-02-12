@@ -1,0 +1,57 @@
+.carouselContainer {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* Agrega desplazamiento suave en dispositivos iOS */
+  max-width: 100%;
+  padding: 2rem 0;
+}
+
+.carouselContainer::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+.carouselContainer::-webkit-scrollbar-track {
+  background: transparent;
+  width: 4px;
+  height: 4px;
+}
+
+/* Handle */
+.carouselContainer::-webkit-scrollbar-thumb {
+  background: #02688440;
+  width: 4px;
+  height: 4px;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+
+.carouselWrapper {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.carouselItem {
+  display: inline-block;
+  margin-right: 20px; /* Espacio entre los elementos del carrusel */
+  cursor: pointer;
+}
+
+.carouselItem:hover {
+  transform: scale(1.1); /* Escala del elemento al pasar el ratón por encima */
+  transition: transform 0.5s; /* Duración de la transición */
+}
+
+.carouselImage {
+  width: 100px; /* Ancho de las imágenes */
+  height: auto; /* Altura ajustada automáticamente */
+  border-radius: 50%;
+  background-color: white;
+}
+
+.carouselText {
+  text-align: center;
+  font-size: 14px; /* Tamaño del texto */
+  margin-top: 5px; /* Espacio superior del texto */
+}
