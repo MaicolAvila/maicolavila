@@ -10,6 +10,18 @@ export const metadata: Metadata = {
   title: "Maicol Avila",
   description: "Maicol Avila personal website",
   keywords: "Maicol Avila, Software Engineer, Fullstack Developer, Colombia Developer, Desarrollador de Software, Ingeniero de Software",
+  manifest: "/manifest.json",
+  authors: [
+    { name: "Maicol Andres Avila Vela" },
+    {
+      name: "Maicol Andres Avila Vela",
+      url: "https://www.linkedin.com/in/maicol-andres-avila-vela-b5a0211ab",
+    },
+  ],
+  icons: [
+    { rel: "apple-touch-icon", url: "images/apple-touch-icon.png" },
+    { rel: "icon", url: "images/android-chrome-512x512.png" },
+  ],
 };
 
 export default function RootLayout({
