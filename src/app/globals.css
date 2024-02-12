@@ -22,6 +22,12 @@ html {
   grid-template-columns: 16rem calc(100% - 16rem);
 }
 
+@media screen and (max-width: 768px) {
+  .layout-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 .bgImageMikeWhiteHair {
   background-image: url("../assets/images/mike-white-hair.webp");
   background-size: cover;
