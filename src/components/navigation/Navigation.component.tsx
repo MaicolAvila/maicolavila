@@ -23,7 +23,6 @@ export default function Navigation() {
         if (entry.isIntersecting) {
           const id = entry.target.getAttribute("id");
           const link = document.querySelector(`[href="#${id}"]`);
-          console.log(link);
           if (link) link.classList.remove("text-xl");
           if (link) link.classList.remove("text-blue-100");
           if (link) link.classList.add("text-2xl");

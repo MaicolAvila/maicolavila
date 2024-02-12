@@ -15,7 +15,7 @@ interface CarouselProps {
 
 export default function Carousel({ items }: CarouselProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const [visibleItems, setVisibleItems] = useState([...items, ...items, ...items]);
+  const [visibleItems] = useState([...items, ...items, ...items]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -34,7 +34,6 @@ export default function Carousel({ items }: CarouselProps) {
     const startAutoScroll = () => {
       scrollInterval = setInterval(() => {
         container.scrollLeft += 1; // Ajusta la velocidad de desplazamiento aquí
-        console.log(container.scrollLeft, container.scrollWidth);
         if (container.scrollLeft >= container.scrollWidth / 2) {
           // Si alcanza la mitad del contenedor, vuelve al principio
           container.scrollLeft = 0;
