@@ -69,7 +69,7 @@ export default function HomeSection() {
           </div>
         </div>
         <div className="">
-          <p className="text-start md:text-xl xl:text-2xl">{description}</p>
+          <p className="text-justify md:text-start md:text-xl xl:text-2xl">{description}</p>
         </div>
         <div className="flex-row justify-center flex md:hidden">
           {displayIcons}
