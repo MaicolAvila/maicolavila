@@ -10,7 +10,7 @@ export default function SkillsSection() {
     { name: "React", image: "/images/react_logo.webp" },
     { name: "NextJS", image: "/images/next_logo.webp" },
     { name: "NestJS", image: "/images/nest_logo.webp" },
-    { name: ".NET", image: "/images/net_logo.webp" },
+    { name: ".NET", image: "/images/NET_logo.webp" },
     { name: "Retool", image: "/images/retool_logo.webp" },
     { name: "Flutter", image: "/images/flutter_logo.webp" },
     { name: "Angular", image: "/images/angular_logo.webp" },
