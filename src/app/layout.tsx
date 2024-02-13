@@ -33,8 +33,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.className} bg-background-100`}>
-        <div className="flex flex-row bg-background-100 px-8 justify-center items-center">
-          <div className="w-full max-w-screen-xl overflow-x-hidden layout-grid">
+        <div className="flex flex-row bg-background-100 justify-center items-center">
+          <div className="w-full max-w-screen-xl overflow-x-hidden layout-grid max-h-screen px-8">
             <div className="hidden md:flex min-w-64">
               <div className="fixed flex-col flex max-w-64">
                 <Image
