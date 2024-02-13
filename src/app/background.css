@@ -1,0 +1,130 @@
+.background-space {
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.luna {
+  position: absolute;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 1; /* Coloca la luna detrás de las estrellas */
+  background: radial-gradient(
+    circle at 100% 30%,
+    transparent 56%,
+    #add5d0 50%
+  ); /* Degradado radial para simular una media luna creciente */
+  transform: rotate(222deg); /* Inclinación de la luna */
+}
+
+@media (min-width: 768px) {
+  .luna {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@keyframes luna-animation {
+  0% {
+    right: calc(-150px / 2);
+    top: 20%;
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    right: 30%;
+    top: -10%;
+    transform: translateY(-50%) translateX(50%);
+  }
+  100% {
+    right: 0%;
+    top: -20%;
+    transform: translateY(0) translateX(0);
+  }
+}
+/* Sombras */
+.luna::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 100% 30%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.3) 80%
+  ); /* Degradado radial para simular una sombra solo en la parte amarilla */
+}
+
+/* Estrellas */
+.star {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: yellow; /* Color de las estrellas */
+  animation: brillo-animation 2s infinite alternate;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  ); /* Forma de la estrella */
+  box-shadow: 0 0 10px 15px rgba(246, 249, 64, 0.8); /* Resplandor alrededor de la estrella */
+}
+
+.star-trail {
+  position: absolute;
+  background-color: yellow; /* Color de la estela */
+  opacity: 0.5; /* Opacidad de la estela */
+  width: 1px; /* Ancho de la estela */
+  height: 50px; /* Altura de la estela */
+}
+
+@keyframes brillo-animation {
+  0% {
+    box-shadow: 0 0 10px 15px rgba(246, 249, 64, 0.8);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px 20px rgba(246, 249, 64, 1);
+    transform: scale(1.2);
+  }
+  100% {
+    box-shadow: 0 0 10px 15px rgba(246, 249, 64, 0.8);
+    transform: scale(1);
+  }
+}
+
+/* Animación de las estrellas */
+@keyframes estrella-animation {
+  0% {
+    opacity: 0; /* Estrellas invisibles al inicio */
+    transform: translateY(100vh) translateX(-10vw); /* Posición inicial de las estrellas en la parte inferior */
+  }
+  10% {
+    opacity: 1; /* Estrellas visibles al principio de la animación */
+    transform: translateY(90vh) translateX(0); /* Movimiento diagonal hacia arriba */
+  }
+  90% {
+    opacity: 1; /* Estrellas visibles durante la mayor parte de la animación */
+  }
+  100% {
+    opacity: 0; /* Estrellas invisibles al final de la animación */
+    transform: translateY(-10vh) translateX(110vw); /* Movimiento fuera de la pantalla hacia la derecha */
+  }
+}
+
+/* Agrega más estrellas según sea necesario */

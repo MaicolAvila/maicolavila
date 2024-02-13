@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
+import "./background.css";
 import Navigation from "@/components/navigation/Navigation.component";
 import Image from "next/image";
+import MoonAnimation from "@/components/moon/Moon";
 
 const lato = Lato({ weight: "700", subsets: ["latin"] });
 
@@ -33,10 +35,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.className} bg-background-100`}>
-        <div className="flex flex-row bg-background-100 justify-center items-center">
-          <div className="w-full max-w-screen-xl overflow-x-hidden layout-grid max-h-screen px-8">
+        <div className="background-space">
+          <MoonAnimation />
+        </div>
+        <div className="flex flex-row justify-center items-center z-10 relative">
+          <div
+            id="content-scrollable"
+            className="w-full max-w-screen-xl overflow-x-hidden layout-grid max-h-screen px-8"
+          >
             <div className="hidden md:flex min-w-64">
-              <div className="fixed flex-col flex max-w-64">
+              <div className="fixed mt-6 flex-col flex max-w-64">
                 <Image
                   className="rounded-full"
                   width={350}

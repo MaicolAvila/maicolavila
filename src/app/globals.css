@@ -4,6 +4,7 @@
 
 body {
   color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
 }
 
 html {
@@ -45,7 +46,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #026884;
+  background: #02688440;
   opacity: 0.5;
   border-radius: 8px;
 }
