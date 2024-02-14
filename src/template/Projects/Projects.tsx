@@ -18,6 +18,12 @@ const projects = [
     description:
       "A portal for Vector Capital to manage clients, brokers, and information, facilitating buying and selling orders for foreign exchange. Streamlining business operations and client transactions.",
   },
+  {
+    name: "OTC",
+    image: "/images/otc.webp",
+    description:
+      "A comprehensive currency trading software for managing clients, orders, and more, with user roles including brokers, admins, and clients.",
+  },
 ];
 
 export default function ProjectsSection() {
