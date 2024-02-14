@@ -62,7 +62,7 @@ export default function HomeSection() {
           <h1
             className={
               elMessiri.className +
-              " text-center text-6xl text-blue-100 font-bold drop-shadow"
+              " text-center text-6xl text-blue-100 font-bold"
             }
           >
             Maicol Avila
