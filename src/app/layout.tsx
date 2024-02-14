@@ -42,19 +42,7 @@ export default function RootLayout({
             id="content-scrollable"
             className="w-full max-w-screen-xl overflow-x-hidden layout-grid max-h-screen px-8"
           >
-            <div className="hidden md:flex min-w-64">
-              <div className="fixed mt-6 flex-col flex max-w-64">
-                <Image
-                  className="rounded-full"
-                  width={350}
-                  height={350}
-                  src="/images/profile.webp"
-                  alt="Maicol Avila"
-                  loading="lazy"
-                />
-                <Navigation />
-              </div>
-            </div>
+            <Navigation />
             {children}
           </div>
         </div>

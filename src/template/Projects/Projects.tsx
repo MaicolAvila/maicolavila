@@ -1,6 +1,7 @@
 import { El_Messiri } from "next/font/google";
 import Image from "next/image";
 import React from "react";
+import styles from "./Projects.module.css";
 
 const elMessiri = El_Messiri({ weight: "700", subsets: ["latin"] });
 
@@ -32,7 +33,7 @@ export default function ProjectsSection() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-green hover:shadow-green-hv hover:scale-105 transition duration-300 ease-in-out"
+            className={`${styles.cardProject} max-w-md mx-auto rounded-xl overflow-hidden shadow-green hover:shadow-green-hv hover:scale-105 transition duration-300 ease-in-out`}
           >
             <Image
               className="w-full h-48 object-cover object-center"

@@ -1,0 +1,4 @@
+.cardProject {
+  background: linear-gradient(333deg, rgb(36 100 176 / 78%), rgb(35 31 76 / 99%)),
+    url(../../assets/textures/grainy.svg);
+}
