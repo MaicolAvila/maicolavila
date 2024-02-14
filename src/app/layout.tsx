@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/navigation/Navigation.component";
-import Image from "next/image";
 import MoonAnimation from "@/components/moon/Moon";
+import { Analytics } from "@vercel/analytics/react";
 
 const lato = Lato({ weight: "700", subsets: ["latin"] });
 
@@ -46,6 +46,7 @@ export default function RootLayout({
             {children}
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
