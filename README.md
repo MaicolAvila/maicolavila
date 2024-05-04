@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bienvenido a mi perfil de GitHub 👋
 
-## Getting Started
+¡Hola! Soy Maicol AVILA, un apasionado desarrollador de software con experiencia en una variedad de tecnologías y un interés particular en el mundo de la industria fintech.
 
-First, run the development server:
+## Sobre mí
+- 💻 Desarrollador de software con mas de 3 años de experiencia.
+- 🌱 Apasionado por aprender y mejorar constantemente mis habilidades.
+- 🔭 Actualmente trabajando en proyectos relacionados con inversiones.
+- 📫 Cómo contactarme: maavilav.2001@gmail.com.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Experiencia y Tecnologías
+- 🚀 Tecnologías principales: Next.js, Nest.js, Angular, .NET y Flutter.
+- 💼 Experiencia laboral: Kunturtech - 2022-2024; Tech leader Frontend.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Proyectos Destacados
+- Misim - Un aplicativo web que permite la recarga de SIMS, usadas mas que nada en dispositivos GPS.
+- MiRoute - Aplicacion web para el manejo y control de rutas operativas con seguimiento y visualizacion de flotas usando google maps.
+- Fx Vextor Capital - Este proyecto permitio la compra y venta de divisas a traves de una plataforma web, tambien contando con un backoffice para la administracion de usuarios clientes y mas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contacto
+¡No dudes en contactarme para colaboraciones, oportunidades laborales o simplemente para charlar sobre tecnología y fintech!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Correo electrónico: maavilav.2001@gmail.com
+- LinkedIn: https://www.linkedin.com/in/maicol-andres-avila-vela-b5a0211ab/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Gracias por visitar mi perfil! 😊
