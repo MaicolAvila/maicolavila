@@ -13,6 +13,7 @@
 - 💼 Experiencia laboral: Kunturtech - 2022-2024; Tech leader Frontend.
 
 ## Proyectos Destacados
+- Invexxo - Plataforma web que democratiza las inversiones en renta fija, facilitando un mundo de dificultad, acceso y con excelentes beneficios.
 - Misim - Un aplicativo web que permite la recarga de SIMS, usadas mas que nada en dispositivos GPS.
 - MiRoute - Aplicacion web para el manejo y control de rutas operativas con seguimiento y visualizacion de flotas usando google maps.
 - Fx Vextor Capital - Este proyecto permitio la compra y venta de divisas a traves de una plataforma web, tambien contando con un backoffice para la administracion de usuarios clientes y mas.
