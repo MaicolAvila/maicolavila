@@ -7,7 +7,7 @@ const GithubIcon = React.lazy(() => import("@/assets/icons/github"));
 const LinkedinIcon = React.lazy(() => import("@/assets/icons/linkedin"));
 const WhatsAppIcon = React.lazy(() => import("@/assets/icons/whatsapp"));
 
-const description = `Hello! I'm a 21-year-old software developer passionate about
+const description = `Hello! I'm a 23-year-old software developer passionate about
 crafting innovative solutions. Currently working at Kunturtech, a
 Chilean-based company, I've dedicated my teenage years to
 programming, turning a hobby into a lifelong pursuit. With a love
