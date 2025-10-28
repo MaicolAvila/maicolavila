@@ -10,7 +10,7 @@
 
 ## Experiencia y Tecnologías
 - 🚀 Tecnologías principales: Next.js, Nest.js, Angular, .NET y Flutter.
-- 💼 Experiencia laboral: Kunturtech - 2022-2024; Tech leader Frontend.
+- 💼 Experiencia laboral: Kunturtech - 2022-Actual; Tech leader Frontend.
 
 ## Proyectos Destacados
 - Invexxo - Plataforma web que democratiza las inversiones en renta fija, facilitando un mundo de dificultad, acceso y con excelentes beneficios.
