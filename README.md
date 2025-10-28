@@ -3,7 +3,7 @@
 ¡Hola! Soy Maicol AVILA, un apasionado desarrollador de software con experiencia en una variedad de tecnologías y un interés particular en el mundo de la industria fintech.
 
 ## Sobre mí
-- 💻 Desarrollador de software con mas de 3 años de experiencia.
+- 💻 Desarrollador de software con mas de 5 años de experiencia.
 - 🌱 Apasionado por aprender y mejorar constantemente mis habilidades.
 - 🔭 Actualmente trabajando en proyectos relacionados con inversiones.
 - 📫 Cómo contactarme: maavilav.2001@gmail.com.
